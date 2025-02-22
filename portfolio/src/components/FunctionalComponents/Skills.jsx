@@ -31,6 +31,7 @@ function Skills() {
               <li>Git</li>
               <li>GitHub</li>
               <li>Figma</li>
+              <li>Canva</li>
               <li>Power BI</li>
               <li>Vercel</li>
             </slist>
