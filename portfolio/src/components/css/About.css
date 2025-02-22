@@ -1,0 +1,39 @@
+.about-container {
+    font-family: Arial, sans-serif;
+    color: rgb(39, 202, 202);
+    text-align: justify;
+    padding: 20px 10%;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px 0;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-in-out forwards;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/*
+.logo{
+    float: left;
+    margin: 20px;
+}
+
+img{
+    display: block;
+    outline: 10px solid rgb(5, 16, 73);
+}
+*/
