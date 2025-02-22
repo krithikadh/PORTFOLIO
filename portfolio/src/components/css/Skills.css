@@ -1,0 +1,43 @@
+.skills-container {
+    background-color: #121212;
+    color: rgb(39, 202, 202);
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+h3 {
+    font-size: 1.5rem;
+    color: rgb(216, 62, 191);
+    margin-bottom: 5px;
+}
+
+.skills-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: center;
+}
+
+.skill-section {
+    flex: 1;
+    min-width: 300px;
+}
+
+slist {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .skills-flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

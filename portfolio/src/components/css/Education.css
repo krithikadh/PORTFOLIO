@@ -1,0 +1,30 @@
+.education-container {
+    background-color: #121212;
+    color: rgb(39, 202, 202);
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.education-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.education-section {
+    flex: 1;
+    min-width: 300px;
+}
+
+@media (max-width: 768px) {
+    .education-flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+edustyle{
+    color: rgb(110, 70, 218);
+}
