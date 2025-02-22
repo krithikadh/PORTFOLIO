@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/About.css";
+import "../css/Education.css"
 
 function Education() {
   return (

@@ -1,3 +1,6 @@
+import React from "react";
+import "../css/About.css";
+
 function Certifications(){
     return (
         <div className="about-container">

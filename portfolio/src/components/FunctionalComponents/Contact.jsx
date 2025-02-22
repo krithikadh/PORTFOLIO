@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Profiles.css";
+import "../css/About.css";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 
 function Contact() {

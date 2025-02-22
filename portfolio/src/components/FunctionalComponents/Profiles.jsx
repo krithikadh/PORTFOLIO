@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/About.css";
 import "../css/Profiles.css";
 import { FaLinkedin, FaGithub, FaCode, FaLaptopCode } from "react-icons/fa";
 
