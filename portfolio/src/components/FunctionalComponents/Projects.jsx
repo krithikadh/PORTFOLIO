@@ -8,7 +8,7 @@ function Projects() {
       <div className="profiles-container">
         <div className="profiles-flex">
           <a
-            href="https://www.linkedin.com/in/krithika-d-h"
+            href="https://portfolio-kdh.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="profile-link"
