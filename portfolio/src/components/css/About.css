@@ -1,39 +1,71 @@
 .about-container {
-    font-family: Arial, sans-serif;
-    color: rgb(39, 202, 202);
-    text-align: justify;
-    padding: 10px 10%;
-    width: 100%;
-    box-sizing: border-box;
-    margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px; /* space between photo and text */
+  padding: 80px 10% 10px; /* ⬅ added more top padding (80px) */
+  width: 100%;
+  box-sizing: border-box;
+  margin: 10px 0;
+
+  font-family: Arial, sans-serif;
+  color: rgb(39, 202, 202);
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  text-align: justify;
+
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-pic {
+  width: 280px;
+  height: 280px;
+  border-radius: 0; /* square */
+  object-fit: cover;
+  outline: 8px solid rgb(130, 207, 97); /* frame effect */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-text {
+  flex: 2;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  0% {
     opacity: 0;
     transform: translateY(20px);
-    animation: fadeInUp 1s ease-in-out forwards;
-    font-size: 1.2rem;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-    line-height: 1.5;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
 
-/*
-.logo{
-    float: left;
-    margin: 20px;
-}
+  .about-text {
+    text-align: justify;
+  }
 
-img{
-    display: block;
-    outline: 10px solid rgb(5, 16, 73);
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
 }
-*/

@@ -10,9 +10,10 @@ function Achievements(){
                 <li>LeetCode- 50 Days Badge 2024, Introduction to Pandas Badge, 100 Days Badge 2024</li>
                 <li>CISCO - Networking Basics Badge</li>
                 <li>Proficient in Tamil, English and Hindi</li>
-                <li>German score 9 in Duolingo</li>
+                <li>German score 13 in Duolingo</li>
                 <li>Co-ordinated an event at AIZEN '24</li>
                 <li>Co-judged two events at TECHNOCRATS '24</li>
+                <li>Completed all levels of DBHPS (Hindi) exams</li>
             </ul>
           </p>
 

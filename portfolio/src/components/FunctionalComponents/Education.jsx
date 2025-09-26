@@ -16,7 +16,7 @@ function Education() {
             <h3>
               <edustyle>St. Joseph's Institute of Technology</edustyle>
             </h3>
-            <li>8.40 CGPA (as of five semesters)</li>
+            <li>8.47 CGPA (as of third year)</li>
           </div>
 
           <div className="education-section">

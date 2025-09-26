@@ -18,6 +18,11 @@ function Certifications(){
                 <li>Big Data Computing, NPTEL (Aug 2024 - Oct 2024)</li>
                 <li>Networking Basics, CISCO (Jan 2025)</li>
                 <li>HTML, Spoken Tutorial - IIT Bombay (Jan 2025)</li>
+                <li>CSS (Basic), HackerRank (Mar 2025)</li>
+                <li>Data Mining, NPTEL (Jan 2025 - Mar 2025)</li>
+                <li>Generative AI for Beginners, Udemy (Aug 2025)</li>
+                <li>AZ-900 Azure Fundamentals: Crash Course, Udemy (Aug 2025)</li>
+                <li>Mastering LLMs with Ollama LangChain CrewAI Hugging Face, Udemy (Aug 2025)</li>
             </ul>
           </p>
 

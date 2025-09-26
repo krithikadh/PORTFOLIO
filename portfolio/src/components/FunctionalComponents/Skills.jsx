@@ -18,6 +18,7 @@ function Skills() {
               <li>HTML</li>
               <li>CSS</li>
               <li>JavaScript</li>
+              <li>R</li>
             </slist>
           </div>
 
@@ -34,6 +35,7 @@ function Skills() {
               <li>Canva</li>
               <li>Power BI</li>
               <li>Vercel</li>
+              <li>Neo4j</li>
             </slist>
           </div>
 
@@ -46,7 +48,15 @@ function Skills() {
               <li>Seaborn</li>
               <li>Scikit-Learn</li>
               <li>TensorFlow</li>
+            </slist>
+          </div>
+
+          <div className="skill-section">
+            <h3>FRAMEWORKS</h3>
+            <slist>
               <li>React</li>
+              <li>Ollama</li>
+              <li>Langchain</li>
             </slist>
           </div>
         </div>
