@@ -1,11 +1,11 @@
 import React from "react";
 import "../css/About.css";
-
+import profilePic from "../../assets/photo.jpg";
 function About() {
   return (
     <div className="about-container">
       <div className="about-image">
-        <img src="photo.jpg" alt="Profile" className="profile-pic" />
+        <img src={profilePic} alt="Profile" className="profile-pic" />
       </div>
       <div className="about-text">
         <p>
