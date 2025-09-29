@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px; /* space between photo and text */
-  padding: 80px 10% 10px; /* ⬅ added more top padding (80px) */
+  gap: 30px;
+  padding: 80px 10% 10px;
   width: 100%;
   box-sizing: border-box;
   margin: 10px 0;
@@ -30,9 +30,9 @@
 .profile-pic {
   width: 280px;
   height: 280px;
-  border-radius: 0; /* square */
+  border-radius: 0;
   object-fit: cover;
-  outline: 8px solid rgb(130, 207, 97); /* frame effect */
+  outline: 8px solid rgb(130, 207, 97);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -40,7 +40,6 @@
   flex: 2;
 }
 
-/* Animation */
 @keyframes fadeInUp {
   0% {
     opacity: 0;
@@ -52,7 +51,6 @@
   }
 }
 
-/* Responsive layout for smaller screens */
 @media (max-width: 768px) {
   .about-container {
     flex-direction: column;
