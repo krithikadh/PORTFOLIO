@@ -1,0 +1,45 @@
+.certifications-container {
+  padding: 40px 10%;
+  font-family: Arial, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgb(220, 119, 195);
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+.certifications-container ul {
+  list-style: disc inside;
+  margin: 0;
+  padding: 0;
+}
+
+.certifications-container li {
+  margin-bottom: 12px;
+}
+
+.cert-before {
+  color: rgb(220, 119, 195); /* green for text before comma */
+  font-weight: bold;
+}
+
+.cert-after {
+  color: rgb(39, 202, 202); /* cyan for text after comma */
+  margin-left: 6px;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .certifications-container {
+    font-size: 1rem;
+  }
+}
