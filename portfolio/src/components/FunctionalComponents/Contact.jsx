@@ -1,11 +1,12 @@
 import React from "react";
 import "../css/Profiles.css";
 import "../css/About.css";
+import "../css/Skills.css";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 
 function Contact() {
   return (
-    <div className="about-container">
+    <div className="others-container">
       <div className="profiles-container">
         <div className="profiles-flex">
           <a target="_blank" rel="noopener noreferrer" className="profile-link">

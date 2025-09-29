@@ -1,11 +1,12 @@
 import React from "react";
 import "../css/About.css";
 import "../css/Profiles.css";
+import "../css/Skills.css";
 import { FaLinkedin, FaGithub, FaCode, FaLaptopCode } from "react-icons/fa";
 
 function Profiles() {
   return (
-    <div className="about-container">
+    <div className="others-container">
       <div className="profiles-container">
         <div className="profiles-flex">
           <a
