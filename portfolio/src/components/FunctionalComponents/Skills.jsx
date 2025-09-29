@@ -4,7 +4,7 @@ import "../css/About.css";
 
 function Skills() {
   return (
-    <div className="about-container">
+    <div className="others-container">
       <div className="skills-container">
         <div className="skills-flex">
           <div className="skill-section">

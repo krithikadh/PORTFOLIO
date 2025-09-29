@@ -1,3 +1,26 @@
+.others-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px 10%; /* ⬅️ Removed the 80px top padding */
+  width: 100%;
+  box-sizing: border-box;
+  margin: 10px 0;
+
+  font-family: Arial, sans-serif;
+  color: rgb(39, 202, 202);
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  text-align: justify;
+
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
 .skills-container {
     color: rgb(39, 202, 202);
     padding: 5px;
