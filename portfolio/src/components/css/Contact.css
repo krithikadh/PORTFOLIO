@@ -1,0 +1,131 @@
+/* Container */
+.contact-container {
+  display: flex;
+  flex-direction: column; /* Stack contact info & form */
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+  padding: 60px 10%;
+  width: 100%;
+  box-sizing: border-box;
+
+  font-family: Arial, sans-serif;
+  color: rgb(39, 202, 202);
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+/* Contact Info (email & phone) */
+.profiles-container {
+  color: rgb(39, 202, 202);
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.profiles-flex {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.profile-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: rgb(39, 202, 202);
+  padding: 10px 20px;
+  border: 2px solid rgb(39, 202, 202);
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.profile-link:hover {
+  background-color: rgba(39, 202, 202, 0.2);
+  color: white;
+  border-color: white;
+}
+
+.profile-icon {
+  font-size: 1.5rem;
+}
+
+/* Contact Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center heading & button */
+  gap: 15px;
+  width: 100%;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 40px; /* More padding for breathing space */
+  border-radius: 12px;
+  border: 1px solid rgba(39, 202, 202, 0.5);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Heading */
+.contact-form h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff4ce0; /* pinkish */
+  text-align: center;
+}
+
+/* Inputs & Textarea */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid rgb(39, 202, 202);
+  border-radius: 8px;
+  font-size: 1rem;
+  background: transparent;
+  color: white;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  text-align: left; /* Keep placeholder aligned left */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: white;
+  background: rgba(39, 202, 202, 0.1);
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Button */
+.contact-form button {
+  width: 100%; /* Full width for alignment */
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(39, 202, 202);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+  background-color: white;
+  color: rgb(39, 202, 202);
+}
